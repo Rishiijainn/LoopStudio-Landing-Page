@@ -138,3 +138,21 @@ footer p{
     font-family: "Alata", serif;
     font-weight: 400;
 }
+@media (max-width: 375px) {
+  .im {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  #interactive {
+    width: 100%; 
+  }
+
+  .new1 h1 {
+    margin-left: 0; 
+    margin-top: 20px;
+    text-align: center;
+  }
+}
